@@ -11,6 +11,6 @@ public interface BookManagementService {
 
 	Collection<Book> listBook();
 	Book getBookByBookId(String BookId);
-	void acquireCar(Book book);
+	void acquireBook(Book book);
 	
 }
