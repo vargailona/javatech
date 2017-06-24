@@ -63,7 +63,7 @@ public class App {
 	private static void listBooks() {
 		final int tableWidth = 30;
 		printHorisontalLine(tableWidth);
-		System.out.println("| PlateNo | Producer | Color | # Doors | Horse Power |");
+		System.out.println("| Writer | Title | Book ID | Pages |");
 		printHorisontalLine(tableWidth);
 		for (Book book : bookManager.listBooks()) {
 			System.out.println(String.format("| %1$7s | %2$8s | %3$5s | %4$7d |", book.getWriter(),
