@@ -18,7 +18,7 @@ import hu.uni.miskolc.javatechnologies.book.service.dao.BookDAO;
 
 public class AnnouncementManagementServiceImpl implements AnnouncementManagementService {
 	
-	private static Logger LOG = LogManager.getLogger(AnnouncementManagementServiceImpl.class);
+	private static Logger log4j = LogManager.getLogger(AnnouncementManagementServiceImpl.class);
 	
 	
 	private AnnouncementDAO announcementDAO;
